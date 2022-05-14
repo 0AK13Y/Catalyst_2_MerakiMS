@@ -17,11 +17,9 @@ After the configuration pushed to Meraki dashboard, the script will send a Webex
 
 ## Solution Components
 
-![High Level Design](static/Cat2MS_Migration_tool.png)
 
 Once the python script is running, the below UI will be accessable to enter the required details to migrating the Catalyst configuration to Meraki MS. 
 
-![](static/Migration_tool_UI.png)
 
 - [Webex Teams](https://developer.webex.com/)
 - [Python 3](https://www.python.org/)
@@ -60,5 +58,3 @@ Webex Teams bot is needed to get notification after finishing the migration. Cre
 ### Use
 
 From any browser enter http://ip_address:5000 or http://localhost:5000
-
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/fadysharobeem/Catalyst_to_Meraki_Migration_tool)
